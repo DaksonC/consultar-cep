@@ -29,7 +29,7 @@
 }
 
 input{
-  width: 100%;
+  width: 50%;
   height: 40px;
   border-radius: 5px;
   border: 1px solid #ccc;
@@ -44,7 +44,7 @@ input:focus{
 }
 
 button{
-  width: 107%;
+  width: 50%;
   height: 40px;
   border-radius: 5px;
   border: 1px solid #ccc;
@@ -60,8 +60,11 @@ button:hover{
   color: #fff;
 }
 
-li{
-  list-style: none;
+#address{
+  background-color: #282c34;
+  border: none;
+  text-align: center;
+  color: #fff;
 }
 
 @keyframes App-logo-spin {
